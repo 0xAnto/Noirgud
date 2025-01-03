@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import HomePage from './components/HomePage'
 import LearnPage from './components/LearnPage'
 import ProjectsPage from './components/ProjectsPage'
+import LibrariesPage from './components/LibrariesPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/libraries" element={<LibrariesPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

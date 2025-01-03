@@ -6,11 +6,10 @@ interface ProjectCardProps {
   title: string;
   description: string;
   tags: string[];
-  difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
   link: string;
 }
 
-const ProjectCard = ({ title, description, tags, difficulty, link }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
   return (
     <div className="group relative rounded-lg border border-border bg-card p-6 hover:border-primary transition-colors">
       <div className="space-y-4">
@@ -26,11 +25,11 @@ const ProjectCard = ({ title, description, tags, difficulty, link }: ProjectCard
         </div>
         
         <div className="flex items-center justify-between pt-4">
-          <Badge 
+          {/* <Badge 
             variant={difficulty.toLowerCase() as 'beginner' | 'intermediate' | 'advanced'}
           >
             {difficulty}
-          </Badge>
+          </Badge> */}
           <Button asChild variant="outline">
             <Link to={link}>View Project</Link>
           </Button>
