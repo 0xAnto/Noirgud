@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center p-6">
-      <Link to="/" className="text-2xl font-bold">Noirgud</Link>
+      <Link to="/" className="text-4xl font-bold text-primary hover:text-primary/90 transition-colors duration-300">Noirgud</Link>
       
       {/* Hamburger Icon */}
       <button 

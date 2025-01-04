@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import Navbar from './Navbar';
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navbar />
-
       <main className="container mx-auto px-4 pt-32 pb-16 text-center">
         <h1 className="text-6xl font-bold mb-6">
           Master Noir and Zero Knowledge Proofs

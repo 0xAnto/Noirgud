@@ -1,11 +1,10 @@
 import { learningResources } from '../assets/learingMaterials'; // Import the new data structure
-import LearnCard from './LearnCard'; // Import the new LearnCard component
-import Navbar from './Navbar';
+import LearnCard from '../components/LearnCard'; // Import the new LearnCard component
+
 
 const LearnPage = () => {
     return (
         <div className="min-h-screen bg-background text-foreground">
-            <Navbar />
             <main className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl font-bold mb-4">Learning Resources</h1>
                 <h3 className="text-xl text-muted-foreground mb-12">
