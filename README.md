@@ -24,26 +24,26 @@
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/0xAnto/noirgud.git
-cd noirgud
-```
+   ```bash
+   git clone https://github.com/0xAnto/noirgud.git
+   cd noirgud
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
 3. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-The application will be available at `http://localhost:5173`
+The application will be available at `http://localhost:5173`.
 
 ## 🛠️ Tech Stack
 
@@ -76,11 +76,10 @@ We welcome contributions! Here's how you can help:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-
 ## 🙏 Acknowledgments
 
-- [Noir Lang](https://noir-lang.org/) - The Noir programming language
-- [shadcn/ui](https://ui.shadcn.com) - Beautiful UI components
+- [Noir Lang](https://noir-lang.org/) - The Noir programming language docs
+- [shadcn/ui](https://ui.shadcn.com) - UI components
 - All our contributors and supporters
 
 ---
