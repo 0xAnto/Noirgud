@@ -57,7 +57,7 @@ const Footer = () => {
                 Join our community and help make Noirgud even better.
               </p>
               <a
-                href={`${GITHUB_URL}/contribute`}
+                href={`${GITHUB_URL}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
@@ -70,7 +70,9 @@ const Footer = () => {
 
           {/* Community Section */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Support</h3>
+            <div>
+              <h3 className="text-lg font-semibold">Github</h3>
+            </div>
             <div className="space-y-3">
               <a
                 href={GITHUB_URL}
@@ -78,8 +80,22 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors duration-200"
               >
-                <Github className="h-4 w-4" />
-                <span>Star on GitHub</span>
+              </a>
+              <a
+                href={`${GITHUB_URL}/issues`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors duration-200"
+              >
+                <span>Create Issues</span>
+              </a>
+              <a
+                href={`${GITHUB_URL}/pulls`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors duration-200"
+              >
+                <span>Create PR</span>
               </a>
             </div>
           </div>
